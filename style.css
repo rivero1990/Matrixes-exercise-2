@@ -1,0 +1,50 @@
+body {
+    background-color: khaki;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+#panel {
+    display: grid;
+    place-content: center;
+    margin-top: 15vh;
+}
+
+#container-input {
+    display: grid;
+    place-content: center;
+    background-color: darkorange;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+    margin: 4px;
+    border: 2px solid black;
+}
+
+button {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightseagreen;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
