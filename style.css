@@ -1,5 +1,5 @@
 body {
-    background-color: khaki;
+    background-color: rgb(204, 129, 223);
 }
 
 .box {
@@ -15,17 +15,27 @@ body {
 #panel {
     display: grid;
     place-content: center;
-    margin-top: 15vh;
+    margin-top: 5vh;
+}
+
+#container{
+    display: grid;
+    place-content: center;
+    background-color: darkorange;
+    width: 300px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: auto;
 }
 
 #container-input {
     display: grid;
     place-content: center;
-    background-color: darkorange;
-    width: 250px;
-    padding: 10px;
-    border: 2px solid black;
-    margin: auto;
+}
+
+#container-button {
+    display: grid;
+    place-content: center;
 }
 
 input {
@@ -39,6 +49,7 @@ button {
     border: 2px solid black;
     border-radius: 5px;
     background-color: lightseagreen;
+    width: 120px;
 }
 
 .white {
